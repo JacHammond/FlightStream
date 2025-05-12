@@ -1,0 +1,7 @@
+{
+  "low_fuel_warning": false,
+  "altitude_deviation": true,
+  "weather_risk": "moderate",
+  "route_anomaly": false,
+  "flight_type": "commercial"
+}

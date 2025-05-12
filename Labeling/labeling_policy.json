@@ -1,0 +1,23 @@
+{
+  "low_fuel_warning": {
+    "type": "boolean",
+    "rule": "true if fuel remaining is below 10%"
+  },
+  "altitude_deviation": {
+    "type": "boolean",
+    "rule": "true if altitude varies from expected cruise"
+  },
+  "weather_risk": {
+    "type": "category",
+    "rule": "none/moderate/severe based on weather conditions"
+  },
+  "route_anomaly": {
+    "type": "boolean",
+    "rule": "true if aircraft deviates from flight plan"
+  },
+  "flight_type": {
+    "type": "category",
+    "rule": "commercial/private/government/military/unknown based on route, altitude, and aircraft model"
+  }
+}
+

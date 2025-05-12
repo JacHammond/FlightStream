@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2025-04-28T16:35:05.439101+00:00",
+    "altitude_ft": 4433.1874,
+    "speed_knots": 234.0978,
+    "vs_fpm": 683.1631,
+    "heading_deg": 235.5869,
+    "lat": 40.5032,
+    "lon": -77.8274,
+    "next_wp": null,
+    "wp_distance_meters": null,
+    "wind_velocity": 13.92,
+    "wind_direction": 317.4884,
+    "temperature C\u00b0": null
+  },
+  {
+    "timestamp": "2025-04-28T16:35:07.106054+00:00",
+    "altitude_ft": 4452.7437,
+    "speed_knots": 234.9019,
+    "vs_fpm": 724.1894,
+    "heading_deg": 235.0674,
+    "lat": 40.5018,
+    "lon": -77.8289,
+    "next_wp": null,
+    "wp_distance_meters": null,
+    "wind_velocity": 15.5604,
+    "wind_direction": 317.074,
+    "temperature C\u00b0": null
+  },
+  {
+    "timestamp": "2025-04-28T16:35:08.796895+00:00",
+    "altitude_ft": 4472.511,
+    "speed_knots": 235.1463,
+    "vs_fpm": 702.5665,
+    "heading_deg": 235.4569,
+    "lat": 40.5004,
+    "lon": -77.8304,
+    "next_wp": null,
+    "wp_distance_meters": null,
+    "wind_velocity": 16.1682,
+    "wind_direction": 317.2201,
+    "temperature C\u00b0": null
+  },
+  {
+    "timestamp": "2025-04-28T16:35:10.429997+00:00",
+    "altitude_ft": 4491.6789,
+    "speed_knots": 235.9611,
+    "vs_fpm": 687.8102,
+    "heading_deg": 233.877,
+    "lat": 40.499,
+    "lon": -77.8319,
+    "next_wp": null,
+    "wp_distance_meters": null,
+    "wind_velocity": 15.8241,
+    "wind_direction": 316.2014,
+    "temperature C\u00b0": null
+  }
+]

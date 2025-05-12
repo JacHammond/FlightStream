@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-05-06T17:00:03.245078+00:00",
+  "altitude_ft": 18660.0132,
+  "speed_knots": 180.7877,
+  "verticalspeed_fpm": -607.7259,
+  "lat": 36.6347,
+  "lon": -81.1223,
+  "heading_deg": 185.5523,
+  "fuel_ammount_gallons": 283.17,
+  "feul_percent_remaining": 52.54,
+  "wind_velocity_knots": 49.9776,
+  "wind_direction_deg": 200.2708,
+  "temperature C\u00b0": -20.3617,
+  "weather_pressure_inHg": 14.4435,
+  "time_to_dest_minutes": 26.15,
+  "takeoff_airport": "KCLE",
+  "next_waypoint": "KCLT",
+  "wp_distance_meters": 158655.71,
+  "wind_velocity": 49.9776,
+  "wind_direction": 200.2708,
+  "Active METAR": "KCLT 061652Z 26009KT 10SM FEW050 SCT250 23/08 A3009 RMK AO2 SLP197 T02330083",
+  "Takeoff METAR": "KCLE 061651Z 20012G23KT 10SM FEW025 BKN034 OVC049 15/09 A2991 RMK AO2 SLP145 T01500094"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2025-04-28T20:05:59.550019+00:00",
+    "altitude_ft": 36215.492,
+    "speed_knots": 246.59,
+    "vs_fpm": 31.7175,
+    "lat": 37.8668,
+    "lon": -80.5482,
+    "heading_deg": 232.9996,
+    "fuel_ammount_gallons": 169.08,
+    "feul_percent_remaining": 33.82,
+    "wind_velocity_knots": 33.6519,
+    "wind_direction_deg": 329.2919,
+    "temperature C\u00b0": -55.4341,
+    "weather_pressure_inHg": 6.7716,
+    "time_to_dest_minutes": 73.58,
+    "next_waypoint": "KATL",
+    "wp_distance_meters": 585859.47,
+    "wind_velocity": 33.6519,
+    "wind_direction": 329.2919,
+    "METAR": "KATL 281952Z 13009KT 10SM BKN038 25/15 A3024 RMK AO2 SLP234 T02500150 $"
+  }
+]
