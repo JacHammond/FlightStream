@@ -55,7 +55,7 @@ def main():
         raw, _ = sock.recvfrom(4096)
         data = json.loads(raw)
 
-        # Expect normalized keys from Source.py (altitude_ft, speed_knots, etc.)【turn2file0†source】
+        # Expect normalized keys from Source.py (altitude_ft, speed_knots, etc.)
         entry = {
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "altitude_ft": num(data.get("altitude_ft"), 4),
