@@ -4,9 +4,9 @@ from SimConnect import SimConnect, AircraftRequests
 from avwx import Metar
 import argparse
 
-# ---------- Network config ----------
+# Network config
 parser = argparse.ArgumentParser(description="FlightStream MSFS source (Windows)")
-parser.add_argument("--dest-ip", default=os.getenv("FLIGHT_UDP_DEST_IP", "192.168.0.199"),
+parser.add_argument("--dest-ip", default=os.getenv("FLIGHT_UDP_DEST_IP", "127.0.0.1"),
                     help="Destination IP (receiver host)")
 parser.add_argument("--dest-port", type=int, default=int(os.getenv("FLIGHT_UDP_DEST_PORT", "9000")),
                     help="Destination UDP port")
