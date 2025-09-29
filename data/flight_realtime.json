@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-09-29T18:58:48.821285+00:00",
+  "altitude_ft": 40404.0312,
+  "speed_knots": 211.6747,
+  "verticalspeed_fpm": 853.54,
+  "lat": 34.0768,
+  "lon": -80.7686,
+  "heading_deg": 12.1578,
+  "fuel_amount_gallons": 205.59,
+  "fuel_percent_remaining": 23.64,
+  "wind_velocity_knots": 76.5593,
+  "wind_direction_deg": 187.584,
+  "temperature_c": -52.9613,
+  "weather_pressure_inHg": 5.7899,
+  "time_to_dest_minutes": 341.1,
+  "takeoff_airport": "KMCO",
+  "next_waypoint": "CYYZ",
+  "wp_distance_meters": "N/A",
+  "metar_active_wp": "METAR CYYZ 291800Z 13003KT 060V180 15SM SKC 24/08 A3023 RMK SLP240 DENSITY ALT 1500FT",
+  "metar_takeoff_wp": "METAR KMCO 291853Z 36019G24KT 10SM FEW034 BKN060 BKN070 31/22 A2982 RMK AO2 SLP096 T03060217"
+}
