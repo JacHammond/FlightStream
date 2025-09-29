@@ -4,6 +4,7 @@ from SimConnect import SimConnect, AircraftRequests
 from avwx import Metar
 import argparse
 
+# Default destination IP (receiver host)
 DestIp = "192.168.0.199"
 
 # Network config
