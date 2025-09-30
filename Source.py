@@ -5,7 +5,7 @@ from avwx import Metar
 import argparse
 
 # Default destination IP (receiver host)
-DestIp = "192.168.0.199"
+DestIp = "127.0.0.1"
 
 # Network config
 parser = argparse.ArgumentParser(description="FlightStream MSFS source (Running the Game)")
