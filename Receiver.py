@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import argparse
 
-# ---------- Config (no hardcoded paths) ----------
+# Config
 DEF_BASE = Path("./data").resolve()
 ENV_BASE = Path(os.getenv("FLIGHTSTREAM_DIR", DEF_BASE)).expanduser().resolve()
 DEF_REALTIME = ENV_BASE / "flight_realtime.json"
@@ -27,11 +27,11 @@ LOG_DIR = Path(args.log_dir).expanduser().resolve()
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 REALTIME_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-# ---------- Logging ----------
+# Logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 LOG_PATH = LOG_DIR / f"flight_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 
-# ---------- Helpers ----------
+# Helpers
 flight_log = []
 
 def num(x, prec):
@@ -42,7 +42,7 @@ def save_all_and_exit(*_):
     logging.info("Saved %d entries to %s", len(flight_log), LOG_PATH)
     sys.exit(0)
 
-# ---------- Main ----------
+# Main
 def main():
     signal.signal(signal.SIGINT, save_all_and_exit)
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
