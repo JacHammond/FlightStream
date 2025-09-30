@@ -5,4 +5,4 @@ Using SimConnect SDK and AVWX REST API
 ```
 pip install -r requirements.txt
 ```
-# If your are using a seperate machine to recieve the data, change the DestIP in Source.py
+### If your are using a seperate machine to recieve the data, change the DestIP in Source.py
